@@ -1,10 +1,10 @@
 import { FancyInterface } from "./fancy-interface";
 
-class FancyImplementantion implements FancyInterface {
+class FancyImplementation implements FancyInterface {
 	public test() {
 		console.log('Test');
 	}
 }
 
-const fancyMe = new FancyImplementantion();
+const fancyMe = new FancyImplementation();
 fancyMe.test();
